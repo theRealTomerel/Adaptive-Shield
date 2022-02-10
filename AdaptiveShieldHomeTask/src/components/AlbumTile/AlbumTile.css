@@ -1,0 +1,76 @@
+.tile{
+    background:#264864;
+    height:auto;
+    width:23%;
+    margin:0.9%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius:1px;
+    transition: transform .3s;
+}
+.tile:hover{
+    transform: scale(1.1); 
+}
+.tileImageContainer{
+    background:#355979;
+    height:110px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    margin:0.8%;
+}
+.tileContentContainer{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+}
+.thumbnailImage{
+    height:60px;
+    width:60px;
+    transition: transform .3s;
+    border-radius: 38%;
+    padding:10px;
+    cursor:pointer;
+}
+.thumbnailImage:hover{
+    transform: scale(1.3); 
+}
+.thumbnailImage:active{
+    transform: scale(0.9); 
+}
+.titleContainer{
+    width:95%;
+    overflow:hidden;
+    white-space:nowrap;
+}
+.photoTitle{
+    text-align:center;
+    color:white;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+}
+.albumId{
+    text-align:center;
+    color:#A7C7E4;
+    font-weight:200;
+    opacity:0.5;
+}
+.url{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:left;
+    border-radius:2px;
+    color:#A7C7E4;
+    font-size: 17px;
+    opacity:0.5;
+    margin:0.8%;
+    height:35px;
+    width:98%;
+    background: #193246;
+}
+.urlText{
+    padding:1%;
+}

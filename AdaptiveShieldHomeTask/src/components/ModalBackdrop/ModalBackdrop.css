@@ -1,0 +1,23 @@
+@keyframes smooth-in-backdrop {
+    0% {
+      transform: opacity 0;
+    }
+    100% {
+      transform: opacity 1;
+    }
+  }
+
+.backdrop{
+    position:fixed;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background:#000000e1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    z-index:2;
+    transition:smooth-in-backdrop 0.1s ease-in-out;
+}
+

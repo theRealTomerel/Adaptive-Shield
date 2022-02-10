@@ -1,0 +1,14 @@
+#title{
+    color:#CEDFF1;
+    font-family:'Segoe UI';
+    font-size:30px;
+    font-weight:300;
+    margin:1.5% 0.7% 1.5% 0.7%;
+}
+
+.filtrsContainer{
+    display:flex;
+    flex-direction: row;
+    height:30px;
+    margin:0.7%;
+}

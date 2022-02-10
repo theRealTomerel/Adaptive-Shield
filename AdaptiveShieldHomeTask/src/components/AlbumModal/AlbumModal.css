@@ -1,0 +1,64 @@
+.modal{
+    width:50%;
+    height:50%;
+    background:#264864;
+    border-radius:3px;
+}
+.ModalImageContainer{
+    background:#355979;
+    height:220px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    margin:0.8%;
+}
+.ModalContentContainer{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+}
+.thumbnailImage{
+    height:60px;
+    width:60px;
+    transition: transform .3s;
+    border-radius: 38%;
+    padding:10px;
+}
+.thumbnailImage:hover{
+    transform: scale(1.3); 
+}
+.thumbnailImage:active{
+    transform: scale(0.9); 
+}
+.titleContainer{
+    width:95%;
+    overflow:hidden;
+    white-space:nowrap;
+}
+.photoTitle{
+    text-align:center;
+    color:white;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+}
+.albumId{
+    text-align:center;
+    color:#A7C7E4;
+    opacity:0.5;
+}
+.ModalThumbnailImage{
+    height:90px;
+    width:90px;
+    transition: transform .3s;
+    border-radius: 38%;
+    padding:10px;
+}
+.ModalThumbnailImage:hover{
+    transform: scale(1.3); 
+}
+.ModalThumbnailImage:active{
+    transform: scale(0.9); 
+}
